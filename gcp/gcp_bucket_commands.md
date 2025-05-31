@@ -23,6 +23,10 @@ Aprender a usar `gcloud` y `gsutil` para:
 ### 🔹 Crear un bucket
 ```bash
 gcloud storage buckets create gs://lfmc4
+gcloud storage buckets create gs://lfmc4 \
+  --location=multi \
+  --default-storage-class=STANDARD
+
 ```
 
 ---
